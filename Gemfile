@@ -13,7 +13,7 @@ gem "sprockets-rails"
 #gem "sqlite3", "~> 1.4"
 
 #Use postgresql as the database for Active Record
-gem 'pg'
+gem 'pg', '~> 1.2', '>= 1.2.3'
 
 # Use SCSS for stylesheets [
 # Use the Puma web server [https://github.com/puma/puma]
@@ -75,9 +75,6 @@ group :development do
 
   # simple form
   gem 'simple_form'
- 
-  # Use sqlite3 as the database for Active Record
-  gem "sqlite3", "~> 1.4"
 
   # themify icons
   gem 'themify-icons-rails' , github: 'scratch-soft/themify-icons-rails'
