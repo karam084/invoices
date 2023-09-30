@@ -24,4 +24,5 @@ Things you may want to cover:
 
 - Mobile first
 - Add Axios
+- Mobile app
 
